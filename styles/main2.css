@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+}
+nav{
+    background-color: darkblue;
+    height: 60px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.active{
+    background-color: cadetblue;
+    height: 20px;
+}
+h1{
+    background-color: rgb(88, 79, 97);
+    text-align: center;
+    height: 35px;
+    padding: 10px;
+    color: white; 
+}
+main nav{
+    background-color: transparent;
+    height: 300px;
+    width: 700px;
+    border: solid;
+    border-color: black;
+    margin: 10px auto;
+    padding: 5px;
+}
+main nav div{
+    background-color: gainsboro;
+    height: 285px;
+    width: 335px;
+    border: solid;
+    border-color: grey;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+main nav div aside{
+    background-color: darkgreen;
+    height: 240px;
+    width: 111px;
+    display: inline-block;
+    margin: 0px;
+}
+main nav div article{
+    background-color: white;
+    height: 240px;
+    width: 113px;
+    display: inline-block;
+    vertical-align: top;
+}
+main nav div h6{
+    background-color: red;
+    height: 240px;
+    width: 111px;
+    display: inline-block;
+    margin: 0px;
+}
+main nav div article img{
+    height: 100px;
+    margin: 64px 0px 0px 0px;
+}
+h2{
+    margin: 5px;
+    font-size: 30px;
+}
+main div  ol{
+    background-color: yellow;
+    height: 120px;
+}
+main div ul{
+    background-color: blue;
+    height: 60px;
+}
+main div h1{
+    background-color: red;
+    height: 40px;
+}
+main div footer{
+    background-color: white;
+    height: 240px;
+    width: 335px;
+}
+main div footer h6{
+    background-color: blue;
+    height: 80px;
+    width: 335px;
+    margin: 80px 0px 0px 0px;
+}
+main div footer article{
+    background-color: red;
+    height: 80px;
+    width: 335px;
+    margin: -4px;
+}
+
+main div p{
+    background: red;
+    height: 60px;
+}
+main div li{
+    background: rgb(247, 222, 0);
+    height: 120px;
+    list-style: none;
+}
+main div li img{
+    height: 100px;
+    margin: 10px 150px 0px 0px;
+}
+main nav div h4{
+    background-color: red;
+    height: 80px;
+}
+main nav div  h5{
+    background-color: white;
+    height: 80px;
+}
+main nav div section{
+    background-color: black;
+    height: 80px;
+}
+main div h5 img{
+    height: 70px;
+    margin: 3px;
+}
+main div footer h1{
+    background: blue;
+    height: 30px;
+    margin: 0px 0px 12px;
+}
+main div footer h2{
+    background: red;
+    height: 116px;
+    margin: 0px 0px 12px;
+}
+main div footer h2 aside{
+    background: white;
+    height: 100px;
+    width: 100px;
+    margin: 9px 119px 0px 4px;
+    border-radius: 50%;
+}
+main div footer h2 aside img{
+    height: 92px;
+}
+
