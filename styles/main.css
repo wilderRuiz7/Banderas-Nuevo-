@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: darkblue;
+    height: 60px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.active{
+    background-color: cadetblue;
+    height: 20px;
+}
+h1{
+    background-color: rgb(88, 79, 97);
+    text-align: center;
+    height: 35px;
+    padding: 10px;
+    color: white; 
+}
+main nav{
+    background-color: transparent;
+    height: 300px;
+    width: 700px;
+    border: solid;
+    border-color: black;
+    margin: 10px auto;
+    padding: 5px;
+}
+main nav div{
+    background-color: gainsboro;
+    height: 285px;
+    width: 335px;
+    border: solid;
+    border-color: grey;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+main nav div aside{
+    background-color: red;
+    height: 240px;
+    width: 91px;
+    display: inline-block;
+    margin: 0px;
+}
+main nav div article{
+    background-color: white;
+    height: 240px;
+    width: 153px;
+    display: inline-block;
+}
+main nav div article img{
+    height: 155px;
+    margin: 35px 0px 50px
+}
+h2{
+    margin: 5px;
+    font-size: 30px;
+}
+main div footer{
+    background-color: white;
+    height: 240px;
+    width: 335px;
+}
+main div footer ol{
+    background-color: blue;
+    height: 90px;
+    width: 30px;
+    margin: 0px 0px 0px 87px;
+}
+main div footer ul{
+    background-color: blue;
+    height: 60px;
+}
+main div footer article{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 62px;
+}
