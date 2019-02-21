@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-nav{
+nav>ul{
     background-color: darkblue;
     height: 60px;
     text-align: center;
@@ -52,6 +52,7 @@ main nav div{
 h2{
     margin: 5px;
     font-size: 30px;
+    text-align: center;
 }
 main div footer{
     background-color: blue;
@@ -94,7 +95,7 @@ main div h3{
 }
 main div li{
     background-color: blue;
-    height: 110px;
+    height: 104px;
     width: 110px;
     display: inline-block;
     vertical-align: top;
@@ -105,12 +106,31 @@ main div li img{
 }
 main div var{
     background-color: white;
-    height: 106px;
+    height: 100px;
     width: 223px;
     display: inline-block;
 }
 main div dt{
     background-color: red;
-    height: 174px;
+    height: 140px;
     width: 335px;
+}
+main div strong{
+    background-color: red;
+    height: 245px;
+    width: 90px;
+    display: inline-block;
+}
+main div table{
+    background-color: green;
+    height: 75px;
+    width: 230px;
+    display: inline-block;
+
+}
+main div small{
+    background-color: antiquewhite;
+    height: 75px;
+    width: 230;
+    display: inline-block;
 }
