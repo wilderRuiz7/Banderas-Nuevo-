@@ -49,12 +49,22 @@ main nav div{
     display: inline-block;
     vertical-align: top;
 }
+main>div>article{
+    background-color: gainsboro;
+    height: 285px;
+    width: 335px;
+    border: solid;
+    border-color: grey;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
 h2{
     margin: 5px;
     font-size: 30px;
     text-align: center;
 }
-main div footer{
+main>nav>div>footer:first-child{
     background-color: blue;
     height: 240px;
     width: 335px;
@@ -115,22 +125,41 @@ main div dt{
     height: 140px;
     width: 335px;
 }
-main div strong{
+.cuarta strong{
     background-color: red;
-    height: 245px;
+    height: 246px;
     width: 90px;
+    margin: 0 -4px 0 0;
     display: inline-block;
 }
-main div table{
-    background-color: green;
-    height: 75px;
-    width: 230px;
+.cuarta>footer{
     display: inline-block;
+    vertical-align: top;
+}
+.cuarta table{
+    background-color: green;
+    height: 82px;
+    width: 242px;
+}
+.cuarta section{
+    background-color: antiquewhite;
+    height: 82px;
+    width: 242px;
 
 }
-main div small{
-    background-color: antiquewhite;
-    height: 75px;
-    width: 230;
-    display: inline-block;
+.cuarta article{
+    background-color: black;
+    height: 82px;
+    width: 242px;
+}
+main div a{
+    background-color: red;
+    height: 300px;
+    width: 370px;
+}
+main div>a dt{
+    background-color: aliceblue;
+    height: 90px;
+    width: 60px;
+    margin: 0px 0px 0px 87px;
 }
